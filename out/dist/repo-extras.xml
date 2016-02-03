@@ -1,0 +1,18 @@
+<sdk:sdk-addon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdk="http://schemas.android.com/sdk/android/addon/6">
+  <sdk:extra>
+    <sdk:revision>
+      <sdk:major>20</sdk:major>
+    </sdk:revision>
+    <sdk:vendor-display>Android</sdk:vendor-display>
+    <sdk:vendor-id>android</sdk:vendor-id>
+    <sdk:name-display>Local Maven repository for Support Libraries</sdk:name-display>
+    <sdk:path>m2repository</sdk:path>
+    <sdk:archives>
+      <sdk:archive os="any" arch="any">
+        <sdk:size>0</sdk:size>
+        <sdk:checksum type="sha1">27d112f0af920050b857168a87301d6049570de6</sdk:checksum>
+        <sdk:url>android_m2repository_r20.zip</sdk:url>
+      </sdk:archive>
+    </sdk:archives>
+  </sdk:extra>
+</sdk:sdk-addon>
