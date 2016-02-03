@@ -5,14 +5,14 @@
 
 ##Changes to Espresso2.2.1
 
-->###Espresso.java<-
+<center> <h1>Espresso.java</h1> </center>
 
 **static void registerCustomThreadName(String name)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Registers custom thread name, active threads with this name will have their states checked when asyncTask thread states are checked for idle (TERMINATED, BLOCKED or WAITING) before espresso performs a view action. 
 
 
-->###AsyncTaskPoolMonitor.java<-
+<center> <h1>AsyncTaskPoolMonitor.java</h1> </center>
 
 **void getThreadName()**
 
