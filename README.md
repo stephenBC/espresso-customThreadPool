@@ -29,3 +29,24 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Returns number of active threads not currently in Terminated, Blocked, or Waiting state
 
 
+##Example Code
+
+Register thread name to check for idle before running tests
+'''java
+    @Override
+    public void setUp() throws Exception {
+        super.setUp();
+
+        Espresso.registerCustomThreadName("threadName");
+        
+    }
+'''
+
+Set thread name in any thread you want to be idle before performing espresso view actions
+
+'''java
+    @Override
+    public void run() {
+        this.setName("volleyThread");
+    }
+'''
