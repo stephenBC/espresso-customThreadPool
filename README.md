@@ -32,7 +32,8 @@
 ##Example Code
 
 Register thread name to check for idle before running tests
-'''java
+
+```java
     @Override
     public void setUp() throws Exception {
         super.setUp();
@@ -40,13 +41,13 @@ Register thread name to check for idle before running tests
         Espresso.registerCustomThreadName("threadName");
         
     }
-'''
+```
 
 Set thread name in any thread you want to be idle before performing espresso view actions
 
-'''java
+```java
     @Override
     public void run() {
         this.setName("volleyThread");
     }
-'''
+```
