@@ -48,6 +48,6 @@ Set thread name in any thread you want to be idle before performing espresso vie
 ```java
     @Override
     public void run() {
-        this.setName("volleyThread");
+        this.setName("threadName");
     }
 ```
